@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "slug": "how-i-shot-the-red-dress-run",
+      "title": "How I Shot the Red Dress Run",
+      "excerpt": "Behind the scenes of capturing one of New Orleans' most colorful traditions.",
+      "author": "Nola Street Beat",
+      "date": "2025-08-01",
+      "category": "Photo Story",
+      "neighborhood": "French Quarter",
+      "image": "https://via.placeholder.com/600x300.png?text=Photo",
+      "html": "<p>The Red Dress Run is one of the most photogenic events of the year in New Orleans. This article walks through the gear and techniques used to capture stunning images amid the parade of runners in red.</p>"
+    },
+    {
+      "slug": "this-weekend-guide-aug-22",
+      "title": "This Weekend in NOLA: 6 Things You Can’t Miss",
+      "excerpt": "Your quick hit list for food, music, and parades.",
+      "author": "Nola Street Beat",
+      "date": "2025-08-22",
+      "category": "Events",
+      "neighborhood": "Bywater",
+      "image": "https://via.placeholder.com/600x300.png?text=Photo",
+      "html": "<p>Kick off your weekend with a brass band set on Frenchmen Street and make sure to stop by the Bywater Block Party. Here's a guide to the city's hottest happenings.</p>"
+    },
+    {
+      "slug": "second-line-sunday",
+      "title": "Second Line Sunday Returns to Treme",
+      "excerpt": "The city's most iconic street parade is back.",
+      "author": "Nola Street Beat",
+      "date": "2025-08-15",
+      "category": "News",
+      "neighborhood": "Treme",
+      "image": "https://via.placeholder.com/600x300.png?text=Photo",
+      "html": "<p>The second line is a tradition in New Orleans that brings music and community together. We cover the history of the parade and how it continues to unite the neighborhood.</p>"
+    }
+  ]
+}
