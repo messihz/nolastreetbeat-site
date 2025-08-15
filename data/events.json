@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "title": "Frenchmen Brass Night",
+      "date": "2025-08-23",
+      "neighborhood": "Marigny"
+    },
+    {
+      "title": "Red Dress Run",
+      "date": "2025-08-24",
+      "neighborhood": "French Quarter"
+    },
+    {
+      "title": "Po-Boy Festival",
+      "date": "2025-08-29",
+      "neighborhood": "Mid-City"
+    }
+  ]
+}
