@@ -1,0 +1,176 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header and logo */
+.site-header {
+  background: #D12B2B;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  gap: 5px;
+}
+
+.logo-part.red {
+  color: #D12B2B;
+  background: #fff;
+  padding: 0 5px;
+}
+
+/* Main layout */
+.site-main {
+  margin-top: 0;
+}
+
+/* Hero section */
+#hero {
+  background: #eee;
+  min-height: 250px;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px 20px;
+}
+
+#hero h2 {
+  margin: 0;
+  color: #D12B2B;
+  font-size: 28px;
+}
+
+/* Two-column layout */
+.content {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Events sidebar */
+#events {
+  flex: 1;
+  max-width: 300px;
+  background: #f9f9f9;
+  border-left: 4px solid #D12B2B;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#events h3 {
+  margin-top: 0;
+  color: #D12B2B;
+}
+
+#events ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#events li {
+  margin-bottom: 10px;
+}
+
+/* News grid */
+#news {
+  flex: 3;
+  margin-left: 20px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  background: #eee;
+  display: block;
+}
+
+.news-item h4 {
+  margin: 10px 0 5px;
+  color: #D12B2B;
+  font-size: 18px;
+}
+
+.news-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Photo stories */
+#photo-stories {
+  margin-top: 40px;
+}
+
+.photo-story {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.photo-story img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: #eee;
+}
+
+.photo-story h4 {
+  margin: 10px 0 5px;
+  color: #D12B2B;
+  font-size: 20px;
+}
+
+/* Article page */
+.article-title {
+  color: #D12B2B;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.article-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.article-body {
+  line-height: 1.6;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
