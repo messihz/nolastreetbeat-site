@@ -1,0 +1,48 @@
+backend:
+    name: git-gateway
+    branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    files:
+      - file: "data/articles.json"
+        name: "articles"
+        label: "Articles"
+        format: "json"
+        fields:
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Excerpt", name: "excerpt", widget: "text" }
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Neighborhood", name: "neighborhood", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "string" }
+              - { label: "Body", name: "html", widget: "markdown" }
+  - name: "events"
+    label: "Events"
+    files:
+      - file: "data/events.json"
+        name: "events"
+        label: "Events"
+        format: "json"
+        fields:
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            summary: "{{fields.title}} on {{fields.date}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Neighborhood", name: "neighborhood", widget: "string" }
+
+  
